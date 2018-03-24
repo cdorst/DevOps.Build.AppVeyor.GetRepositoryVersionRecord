@@ -15,7 +15,7 @@
     <PackageLicenseUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord</RepositoryUrl>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
