@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Function gets the given repository's version record from the Azure Storage Table AppVeyor build ledger</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.DevOps.Build.AppVeyor.GetRepositoryVersionRecord</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.GetAzureTable" Version="1.0.0" />
+    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.AzureStorageTableVersionLedger" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
