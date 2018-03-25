@@ -11,7 +11,11 @@ namespace DevOps.Build.AppVeyor.GetRepositoryVersionRecord
         /// <summary>Returns the given repository's version record from the Azure Storage Table AppVeyor build ledger</summary>
         public static async Task<RepositoryVersionTable> GetRepositoryVersionRecordAsync(string accountName, string repositoryName)
         {
-            var operation = TableOperation.Retrieve<RepositoryVersionTable>(accountName, repositoryName); var table = await GetTable(); var result = await table.ExecuteAsync(operation); if (result?.Result == null) return null; return (RepositoryVersionTable)result.Result;
+var operation = TableOperation.Retrieve<RepositoryVersionTable>(accountName, repositoryName);
+var table = await GetTable();
+var result = await table.ExecuteAsync(operation);
+if (result?.Result == null) return null;
+return (RepositoryVersionTable)result.Result;;
         }
     }
 }
