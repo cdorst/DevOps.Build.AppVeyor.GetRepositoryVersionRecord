@@ -15,12 +15,12 @@
     <PackageLicenseUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/DevOps.Build.AppVeyor.GetRepositoryVersionRecord</RepositoryUrl>
-    <Version>2.0.9</Version>
+    <Version>2.0.10</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.GetAzureTable" Version="1.0.5" />
-    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.AzureStorageTableVersionLedger" Version="1.0.5" />
+    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.GetAzureTable" Version="1.0.6" />
+    <PackageReference Include="CDorst.DevOps.Build.AppVeyor.AzureStorageTableVersionLedger" Version="1.0.6" />
   </ItemGroup>
 
 </Project>
