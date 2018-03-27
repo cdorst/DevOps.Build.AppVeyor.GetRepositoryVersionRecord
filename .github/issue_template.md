@@ -6,6 +6,7 @@
 
 ### Steps to reproduce
 
-### Description of propesed changes
+
+### Description of proposed changes
 
 
