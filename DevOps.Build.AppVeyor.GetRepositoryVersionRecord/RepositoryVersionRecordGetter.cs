@@ -18,7 +18,7 @@ namespace DevOps.Build.AppVeyor.GetRepositoryVersionRecord
             var table = await GetTable();
             var result = await table.ExecuteAsync(operation);
             if (result?.Result == null) return null;
-            return (RepositoryVersionTable)result.Result;;
+            return (RepositoryVersionTable)result.Result;
         }
     }
 }
